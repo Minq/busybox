@@ -21,6 +21,3 @@ RUN pip install --upgrade \
 
 ADD .aws /root/.aws
 ADD .bash_alias /root/.bash_alias
-
-
-# ref: https://github.com/leodotcloud/swiss-army-knife/blob/main/package/Dockerfile
