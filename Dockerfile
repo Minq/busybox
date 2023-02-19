@@ -1,5 +1,8 @@
 FROM alpine:3.17
 
+LABEL org.opencontainers.image.source='https://github.com/minq/busybox'
+LABEL org.opencontainers.image.description='Busybox image with a few extra tools'
+
 RUN apk add --no-cache \
     bash \
     curl \
