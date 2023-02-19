@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          plaforms: linux/amd64,linux/arm64
+          platforms: ${{ matrix.platforms }}
           tags: |
             ghcr.io/${{ env.REPO }}:latest
             ghcr.io/${{ env.REPO }}:${{ env.TAG }}
