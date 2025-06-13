@@ -15,7 +15,8 @@ RUN apk add --no-cache \
     py3-setuptools \
     bind-tools \
     jq \
-    yq
+    yq \
+    ca-certificates
 
 RUN pip install --upgrade \
     awscli  \
